@@ -66,14 +66,63 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:V RISHON ANAND
+ 
+ RegisterNumber: 212224240135
+
+     module exp12 (a, b, y1,y2,y3,y4,y5,y6,y7);
+       input a, b;
+       output y1,y2,y3,y4,y5,y6,y7;
+
+     nand (y1, a, b);
+	    not(y2,a);
+      or (y3, a, b);
+     and (y4, a, b);	
+	    nor(y5, a, b); 
+	    xor(y6, a, b);
+	    xnor(y7, a, b);
+	 
+    endmodule
  
 **Logic symbol & Truthtable**
 
+**NAND gate**
+
+![Screenshot 2025-03-15 215201](https://github.com/user-attachments/assets/70aeaed5-8b8e-4174-a498-181992f93e1f)
+
+
+**OR gate**
+
+![Screenshot 2025-03-15 215150](https://github.com/user-attachments/assets/ce69c881-0fb1-4517-b5aa-23d8a787c803)
+
+
+**AND gate**
+
+![Screenshot 2025-03-15 215145](https://github.com/user-attachments/assets/a5ddd2ea-55b4-431a-8aa9-704cee06c97a)
+
+
+**NOR gate**
+
+![Screenshot 2025-03-15 215206](https://github.com/user-attachments/assets/5776bc8b-ac03-4843-b574-77e773134f16)
+
+
+**XNOR gate**
+
+![Screenshot 2025-03-15 215210](https://github.com/user-attachments/assets/3c4508fa-a1b3-4f00-9df1-20c554333774)
+
+
+**NOT gate**
+
+![Screenshot 2025-03-15 215137](https://github.com/user-attachments/assets/3ec8e43a-50f6-4c67-b1d3-15f249847096)
+
+
 **RTL realization Output:** 
+![Screenshot 2025-03-15 214039](https://github.com/user-attachments/assets/08f4ae39-e9be-4525-a6be-2ecd00746e54)
+
 
 **RTL**
+![Screenshot 2025-03-15 214304](https://github.com/user-attachments/assets/8803f0a2-3b50-41b4-a3dd-681167a70851)
 
 **Result:**
-
+Thus the truth table of logic gates in Quartus II using verilog programming is studied and verified.
 
